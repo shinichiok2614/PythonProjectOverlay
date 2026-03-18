@@ -59,6 +59,9 @@ Hiệu năng
 
 
 ---
+https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/releases/tag/v0.9.6
+
+
 pyinstaller --noconsole --onefile --add-data "LibreHardwareMonitorLib.dll;." --add-data "System.Memory.dll;." --add-data "System.Buffers.dll;." --add-data "System.Runtime.CompilerServices.Unsafe.dll;." cpu-ram-nw-clock-color11.py
 
 
