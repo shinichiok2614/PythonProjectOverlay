@@ -59,4 +59,10 @@ Hiệu năng
 
 
 ---
-Powered by [ChatGPT Exporter](https://www.chatgptexporter.com)
+pyinstaller --noconsole --onefile --add-data "LibreHardwareMonitorLib.dll;." --add-data "System.Memory.dll;." --add-data "System.Buffers.dll;." --add-data "System.Runtime.CompilerServices.Unsafe.dll;." cpu-ram-nw-clock-color11.py
+
+
+pyinstaller --noconsole --onefile --add-binary "LibreHardwareMonitorLib.dll;." overlay.py
+
+
+pyinstaller --noconsole --onefile cpu-ram-nw-clock-color13shiftfix.py
