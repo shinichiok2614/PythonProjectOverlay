@@ -248,7 +248,8 @@ def update():
     y = 0
 
     # TIME
-    draw_text(TEXT_X, y, now.strftime("%H:%M:%S"), COLOR_TIME, SIZE_TIME)
+    # draw_text(TEXT_X, y, now.strftime("%H:%M:%S"), COLOR_TIME, SIZE_TIME)
+    draw_text(TEXT_X, y, now.strftime("%H:%M"), COLOR_TIME, SIZE_TIME)
     y += SIZE_TIME + 2
 
     draw_text(TEXT_X, y,

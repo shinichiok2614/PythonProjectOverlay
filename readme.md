@@ -69,3 +69,27 @@ pyinstaller --noconsole --onefile --add-binary "LibreHardwareMonitorLib.dll;." o
 
 
 pyinstaller --noconsole --onefile cpu-ram-nw-clock-color13shiftfix.py
+
+---
+Trong Task Scheduler:
+
+👉 Tab **Actions** → Edit → điền:
+
+* **Program/script:**
+    
+
+python
+
+* **Add arguments:**
+    
+
+cpu-ram-nw-clock-color13shiftfix.py
+
+* **Start in:**
+    
+
+C:\path\to\your\folder
+
+👉 Đây là fix 80% lỗi
+
+* * *
